@@ -1,22 +1,22 @@
 {
-  "name": "@spacebartech/module-template",
+  "name": "@spacebartech/On",
   "version": "1.0.0",
-  "description": "[NAME OF MODULE]",
-  "main": "dist/[MODULE_NAME].js",
+  "description": "On is a custom resize listener",
+  "main": "dist/On.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpacebarTech/node-module-template.git"
+    "url": "git+https://github.com/SpacebarTech/On.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpacebarTech/node-module-template/issues"
+    "url": "https://github.com/SpacebarTech/On/issues"
   },
-  "homepage": "https://github.com/SpacebarTech/node-module-template#readme",
+  "homepage": "https://github.com/SpacebarTech/On#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",

@@ -5,9 +5,9 @@ const path = require( 'path' );
 module.exports = {
   entry: path.resolve( __dirname, 'src/main.js' ),
   output: {
-    filename: '[MODULE_NAME].js',
+    filename: 'On.js',
 		path: path.resolve( __dirname, 'dist' ),
-		library: '[MODULE_NAME]',
+		library: 'On',
 		libraryTarget: 'umd',
 		umdNamedDefine: true
   },
