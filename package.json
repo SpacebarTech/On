@@ -1,5 +1,5 @@
 {
-  "name": "@spacebartech/On",
+  "name": "@spacebartech/on",
   "version": "1.0.0",
   "description": "On is a custom resize listener",
   "main": "dist/On.js",
@@ -42,5 +42,8 @@
   },
   "dependencies": {
     "path": "^0.12.7"
+  },
+  "directories": {
+    "test": "test"
   }
 }
