@@ -1,5 +1,5 @@
 {
-  "name": "@spacebartech/on",
+  "name": "@spacebartech/On",
   "version": "1.0.0",
   "description": "On is a custom resize listener",
   "main": "dist/On.js",
