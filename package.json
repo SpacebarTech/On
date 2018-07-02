@@ -1,6 +1,6 @@
 {
   "name": "@spacebartech/on",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "On is a custom resize listener",
   "main": "dist/On.js",
   "scripts": {
