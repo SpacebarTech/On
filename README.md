@@ -5,7 +5,7 @@ Custom resize listener
 
 ## Installation
 
-  `npm install @spacebartech/On`
+  `npm install @spacebartech/on`
 
 ## Usage
 
