@@ -8,7 +8,7 @@
     "build": "webpack",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
-    "commit": "git-cz"
+    "commit-ci": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -69,6 +69,6 @@
     }
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
