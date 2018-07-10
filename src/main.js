@@ -25,7 +25,7 @@ export default ( function ( delay ) {
 
 	// watch for resize {delay} seconds
 	// after the page resize is complete
-	window.addEventListener( 'resize', ( e ) => {
+	window.addEventListener( 'resize', ( ) => {
 
 		if ( timeout ) {
 			// resize events frequently happen hundreds of times
