@@ -1,6 +1,5 @@
 
 const { expect } = require( 'chai' );
-const main       = require( '../src/main' );
 
 
 describe( '#main', () => {

@@ -6,7 +6,7 @@
   "scripts": {
     "commitmsg": "commitlint -E GIT_PARAMS",
     "commit": "git-cz",
-    "test": "mocha --reporter spec",
+    "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack"
   },
   "repository": {
@@ -54,8 +54,10 @@
   "directories": {
     "test": "test"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config" : {
+    "commitizen" : {
+      "path" : "node_modules/cz-conventional-changelog"
+    }
   },
   "husky" : {
     "hooks" : {
