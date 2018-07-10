@@ -4,6 +4,8 @@
   "description": "On is a custom resize listener",
   "main": "dist/On.js",
   "scripts": {
+    "commitmsg": "commitlint -E GIT_PARAMS",
+    "pre-commit": "npm run test",
     "commit": "git-cz",
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
@@ -60,11 +62,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
     }
   },
   "publishConfig": {
