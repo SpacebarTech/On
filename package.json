@@ -4,7 +4,6 @@
   "description": "On is a custom resize listener",
   "main": "dist/On.js",
   "scripts": {
-    "commitmsg": "commitlint -E GIT_PARAMS",
     "commit": "git-cz",
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
