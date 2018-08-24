@@ -10,7 +10,6 @@ const generateKey = ( resizeListeners ) => {
 
 };
 
-
 export default ( function ( delay ) {
 
 	const resizeListeners = {};

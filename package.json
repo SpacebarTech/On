@@ -2,7 +2,10 @@
   "name": "@spacebartech/on",
   "version": "0.0.0-development",
   "description": "On is a custom resize listener",
-  "main": "dist/On.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
